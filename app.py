@@ -69,6 +69,7 @@ if submit_button:
     
     else:
     	st.markdown("### Hasil Ramalan")
+		st.success("Butang hantar berfungsi!")
     	#result1 = find_text()
     	#result2 = clean_data()
     	#result3 = use_malaya()
@@ -80,7 +81,6 @@ if submit_button:
     	#result9 = error_rate()
     	#result10 = ramal_kata()
 
-    	st.success("Butang hantar berfungsi!")
 
 #About model
 with st.expander("About this app", expanded=True):
